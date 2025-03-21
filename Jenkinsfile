@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/24evermillions/Jenkinsfile.git' 
+                git branch: 'main', url: 'https://github.com/24evermillions/autoScale.git' 
             }
         }
         stage('Initialize Terraform') {
