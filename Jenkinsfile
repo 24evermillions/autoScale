@@ -25,7 +25,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/24evermillions/autoScale'
+                git branch: 'main', url: 'https://github.com/24evermillions/autoScale.git'
             }
         }
             stages {
